@@ -12,22 +12,7 @@ mt19937 rng(chrono::steady_clock().now().time_since_epoch().count());
 #define pll pair<ll, ll>
 #define pii pair<int, int>
 #define INF 0x3f3f3f3f
- 
-/*if(y==0)
-    {
-        if(x)fr(i, x+1)s+='0';
-        if(z)fr(i, z+1)s+='1';
-        cout<<s<<endl;
-    }
-    else
-    {
-        fr(i, x+1)s+='0';
-        fr(i, z+1)s+='1';
-        y--;
-        fr1(i, y)if(i&1)s+='0'; else s+='1';
-        cout<<s<<endl;
-    }*/
- 
+
 void solve() {
     ll a, b, c;
     cin >> a >> b >> c;
@@ -53,7 +38,7 @@ void solve() {
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(0);
- 
+
     ll tt;
     cin >> tt;
     while (tt--) solve();
